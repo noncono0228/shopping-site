@@ -22,12 +22,22 @@ $(function(){
 
 $(document).ready(function(){
   $("#next_icon_category").click(function(){
+    if($(this).hasClass("rotate")){
+       $(this).removeClass("rotate");
+    }else{
+      $(this).addClass("rotate");
+    }
     $(".categories").slideToggle();
   });
 });
 
 $(document).ready(function(){
   $("#next_icon_category2").click(function(){
+    if($(this).hasClass("rotate")){
+       $(this).removeClass("rotate");
+    }else{
+      $(this).addClass("rotate");
+    }
     $(".categories").slideToggle();
   });
 });

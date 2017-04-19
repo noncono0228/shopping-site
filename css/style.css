@@ -254,6 +254,8 @@ header .sp_navi .navi_menu_child li {
       float: right;
       margin-right: 8px;
       cursor: pointer; }
+    .pc_sidemenu .side_top .rotate {
+      transform: rotate(90deg); }
 
 /*--pc_sidemenu--*/
 .sp_sidemenu {
@@ -270,7 +272,7 @@ header .sp_navi .navi_menu_child li {
       background-color: #887f69;
       height: 40px; }
       .sp_sidemenu .side_top .box_top_img img {
-        height: 8px;
+        height: 10px;
         width: auto;
         margin-top: 15px;
         margin-left: 5%; }
@@ -320,32 +322,34 @@ header .sp_navi .navi_menu_child li {
       padding-bottom: 30px; }
       .sp_sidemenu .side_top .about .side_about_img {
         margin-bottom: 10px; }
-      .sp_sidemenu .side_top .about a {
-        font-size: 10px;
-        font-size: 1rem;
-        color: black; }
+      .sp_sidemenu .side_top .about .introduction {
+        font-size: 8px;
+        font-size: 0.8rem;
+        color: black;
+        margin: 20px; }
       .sp_sidemenu .side_top .about .img_jpg {
         width: 40%;
-        margin: 6px 8px;
+        margin: 20px 20px 120px 20px;
         float: left; }
       .sp_sidemenu .side_top .about .more_img {
-        width: 30%;
-        margin: 10px; }
+        width: 30%; }
     .sp_sidemenu .side_top .shop_info {
       padding-bottom: 30px; }
       .sp_sidemenu .side_top .shop_info .side_shopinfo_img {
         margin-bottom: 10px; }
-      .sp_sidemenu .side_top .shop_info a {
-        font-size: 10px;
-        font-size: 1rem;
-        color: black; }
       .sp_sidemenu .side_top .shop_info .img_jpg {
         width: 40%;
-        margin: 6px 8px;
+        margin: 20px 20px 120px 20px;
         float: left; }
+      .sp_sidemenu .side_top .shop_info .introduction {
+        font-size: 8px;
+        font-size: 0.8rem;
+        color: black;
+        margin: 20px; }
       .sp_sidemenu .side_top .shop_info .more_img {
-        width: 30%;
-        margin: 10px; }
+        width: 30%; }
+    .sp_sidemenu .side_top .rotate {
+      transform: rotate(90deg); }
 
 /*--sp_sidemenu--*/
 @media (min-width: 550px) {
@@ -1102,16 +1106,16 @@ footer {
     border: solid #e2ddd4 1px;
     margin: 20px 0; }
   footer .copyright1 p {
-    font-size: 6px;
-    font-size: 0.6rem;
+    font-size: 5px;
+    font-size: 0.5rem;
     text-align: center;
     margin: 10px 0; }
   footer .copyright1 .copyright1_2 {
     padding: 0 20px;
     color: black; }
   footer .copyright2 p {
-    font-size: 5px;
-    font-size: 0.5rem;
+    font-size: 4px;
+    font-size: 0.4rem;
     color: #b0b0b0;
     text-align: center;
     margin: 10px 0 50px 0; }
@@ -1120,11 +1124,11 @@ footer {
       width: 30%;
       margin-right: 35%; }
     footer .copyright1 p {
-      font-size: 10px;
-      font-size: 1rem;
+      font-size: 7px;
+      font-size: 0.7rem;
       margin: 0 17px; }
     footer .copyright2 p {
-      font-size: 10px;
-      font-size: 1rem; } }
+      font-size: 7px;
+      font-size: 0.7rem; } }
 
 /*# sourceMappingURL=style.css.map */

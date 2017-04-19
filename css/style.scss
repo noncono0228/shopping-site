@@ -321,6 +321,9 @@ header .sp_navi .navi_menu_child li {
             margin-right: 8px;
             cursor: pointer;
         }
+        .rotate {
+            transform: rotate(90deg);
+        }
     }/*--side_top--*/
 } /*--pc_sidemenu--*/
 
@@ -337,7 +340,7 @@ header .sp_navi .navi_menu_child li {
                     background-color: #887f69;
                     height: 40px;
                     img {
-                        height: 8px;
+                        height: 10px;
                         width: auto;
                         margin-top: 15px;
                         margin-left: 5%;
@@ -396,18 +399,18 @@ header .sp_navi .navi_menu_child li {
     .side_about_img {
         margin-bottom: 10px;
     }
-    a {
-        @include fontsize(10);
+    .introduction {
+        @include fontsize(8);
         color: black;
+        margin: 20px;
     }
     .img_jpg {
         width: 40%;
-        margin: 6px 8px;
+        margin: 20px 20px 120px 20px;
         float: left;
     }
     .more_img {
         width: 30%;
-        margin: 10px;
     }
 }
 .shop_info {
@@ -415,20 +418,23 @@ header .sp_navi .navi_menu_child li {
         .side_shopinfo_img {
            margin-bottom: 10px;
            }      
-        a {
-            @include fontsize(10);
-            color: black;
-           }        
         .img_jpg {
             width: 40%;
-            margin: 6px 8px;
+            margin: 20px 20px 120px 20px;
             float: left;
             }
-        .more_img {
+        .introduction {
+             @include fontsize(8);
+            color: black;
+            margin: 20px;
+            }
+             .more_img {
             width: 30%;
-            margin: 10px;
             }
         }
+        .rotate {
+            transform: rotate(90deg);
+        } 
     }/*--side_top--*/
 } /*--sp_sidemenu--*/
 
@@ -1371,7 +1377,7 @@ footer {
     }
     .copyright1 {
         p {
-            @include fontsize(6);
+            @include fontsize(5);
             text-align: center;  
             margin: 10px 0;
         }
@@ -1383,7 +1389,7 @@ footer {
     }
     .copyright2 {
         p {
-            @include fontsize(5);
+            @include fontsize(4);
             color: #b0b0b0;
             text-align: center;
             margin: 10px 0 50px 0;
@@ -1395,11 +1401,11 @@ footer {
             margin-right: 35%;
         }
         .copyright1 p {
-            @include fontsize(10);
+            @include fontsize(7);
             margin: 0 17px;
         }
         .copyright2 p {
-            @include fontsize(10);
+            @include fontsize(7);
         }
     }
 }
